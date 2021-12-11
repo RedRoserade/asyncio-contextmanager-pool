@@ -1,7 +1,11 @@
 [tool.poetry]
 name = "asyncio-contextmanager-pool"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "A library providing a pool-like object for holding `AsyncContextManager` instances."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/RedRoserade/asyncio-contextmanager-pool"
+homepage = "https://github.com/RedRoserade/asyncio-contextmanager-pool"
 authors = ["André Carvalho <afecarvalho@gmail.com>"]
 
 [tool.poetry.dependencies]
