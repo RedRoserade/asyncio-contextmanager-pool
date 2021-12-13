@@ -8,9 +8,13 @@ from typing import (
     Dict,
     Generic,
     Hashable,
-    ParamSpec,
     TypeVar,
 )
+
+try:
+    from typing import ParamSpec
+except ImportError:
+    from typing_extensions import ParamSpec
 
 _log = logging.getLogger(__name__)
 
